@@ -27,6 +27,9 @@ public class EmployeeService {
 	@Autowired
 	ContractTypeRepository contractTypeRepository;
 	
+   private static final String TAX_ID_NUMBER_REGEX = "^[A-Z]{4}\\d{6}[A-Z0-9]{3}$"; // Ejemplo de regex para RFC
+
+	
 	//Obtener empleados activos solo Name, LastName email etc...
 	public List<EmployeeActive> getActiveEmployees(){
 		return employeeRepository.findAll().stream().map(this::mapActive).collect(Collectors.toList());

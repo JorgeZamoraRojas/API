@@ -34,3 +34,8 @@ Este proyecto es una API para la gestión de empleados y contratos utilizando Sp
     ```sh
     ./mvnw spring-boot:run
     ```
+
+4.  Get para obtener usurios Actios con POSTMAN Get
+  ```
+    http://localhost:8080/employee
+7.  ```

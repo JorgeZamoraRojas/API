@@ -38,4 +38,17 @@ Este proyecto es una API para la gestión de empleados y contratos utilizando Sp
 4.  Get para obtener usurios Actios con POSTMAN Get
     ```
        http://localhost:8080/employee
-7.  ```
+    ```
+5. POST para agregar nuevos empleados JSON
+   ```
+       {
+
+        "dateFrom": "2024-01-02 08:00:00",
+        "dateTo": "2024-11-31",
+        "salaryPerDay": 100.00,
+        "isActive": 1,
+        "dateCreated": "2024-01-02 08:00:00"
+    }
+
+    ```
+   

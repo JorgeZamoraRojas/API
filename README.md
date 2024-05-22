@@ -35,11 +35,11 @@ Este proyecto es una API para la gestión de empleados y contratos utilizando Sp
     ./mvnw spring-boot:run
     ```
 
-4.  Get para obtener usurios Actios con POSTMAN Get
+4.  Get para obtener usurios Activos con POSTMAN Get
     ```
        http://localhost:8080/employee
     ```
-5. POST para agregar nuevos empleados JSON
+5. POST para agregar nuevos Contratos JSON
    ```
        {
 
@@ -49,6 +49,21 @@ Este proyecto es una API para la gestión de empleados y contratos utilizando Sp
         "isActive": 1,
         "dateCreated": "2024-01-02 08:00:00"
     }
+
+    ```
+   6. POST para agregar nuevos Empleados JSON
+   ```
+    {
+        "taxIdNumber": "85247",
+        "name": "Jorge",
+        "lastName": "Zamora",
+        "birthDate": "1992-02-02",
+        "email": "jorge.zamora@example.com",
+        "cellPhone": "+1234567891",
+        "isActive": true,
+        "dateCreated": "2024-01-02 08:00:00"
+    }
+
 
     ```
    
